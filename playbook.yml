@@ -1,0 +1,9 @@
+- name: Exploring webhooks
+  connection: local
+  hosts: localhost
+  
+  tasks:
+  - name: print to the screen
+    debug:
+        msg: "VL webhook just ran!"
+
